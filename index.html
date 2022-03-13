@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Iris Chatbot</title>
+  </head>
+
+  <body>
+    <div id="content">
+      <div class="eye-box">
+        <div class="eye">
+          <div id="blink">
+            <span></span>
+          </div>
+          <div class="iris"></div>
+        </div>
+        <div class="name"><h2>IRIS CHATBOT</h2></div>
+      </div>
+
+      <div id="chatbox">
+        <h5 id="chat-timestamp"></h5>
+      </div>
+
+      <div id="input">
+        <div id="userInput">
+          <input
+            type="text"
+            placeholder="New Message"
+            id="textInput"
+            class="text"
+            autofocus
+          />
+          <p></p>
+        </div>
+
+        <div id="send-button">
+          <button type="button" accesskey="enter" id="send">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="send"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"
+  ></script>
+  <script src="chat.js"></script>
+  <script src="responses.js"></script>
+</html>
