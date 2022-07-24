@@ -1,29 +1,3 @@
-/*
-
-TODO:
-1. Create functions that return date and time
-2. Create functions for botResponse and userInput
-3. Create a function that stores all possible bot responses
-4. Use enter to send function
-5. Press button to send function
-6. Scroll chatbox
-
-FIXME:
-1. Month shows one month less so had to + 1
-2. Create compatibility for long messages so they don't overflow x axis
-3. After sleep and wake up input click eye to blink no longer works
-4. Change eye color to response only works for single word colors and has to have a color at end of sentence
-
-IDEAS:
-1. Possibly add click on message to show time sent functionality
-2. Create case insensitive input option
-3. Ask name and return it response
-4. Generate response when eye is clicked
-5. Add more conversational responses
-
-*/
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
 // DATE AND TIME
 
 // Returns current time
